@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "udacity-tf-timputzer"
+     bucket = "udacity-tf-timp"
      key    = "terraform/terraform.tfstate"
      region = "us-east-2"
    }
